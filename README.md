@@ -4,14 +4,14 @@ Client side auto failover, health monitoring rippled (XRPL) client using websock
 
 ### Uses:
 
- - rippled-ws-client
+ - [rippled-ws-client](https://github.com/WietseWind/rippled-ws-client)
 
 ### Can be used with:
 
- - rippled-ws-client-sign
+ - [rippled-ws-client-sign](https://github.com/WietseWind/rippled-ws-client-sign)
 
 ### Debug & Demonstration:
 
- - rippled-ws-client-dashboard
+ - [rippled-ws-client-dashboard](https://github.com/WietseWind/rippled-ws-client-dashboard)
 
 # Docs coming soon.
