@@ -1,0 +1,24 @@
+{
+  "name": "rippled-ws-client-pool",
+  "version": "0.0.1",
+  "description": "Connection pool for multiple rippled-ws-client connections: client side failover and health checking",
+  "dependencies": {},
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "rippled-ws-client": "0.0.1",
+    "websocket": "^1.0.25"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/WietseWind/rippled-ws-client-pool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WietseWind/rippled-ws-client-pool/issues"
+  },
+  "homepage": "https://github.com/WietseWind/rippled-ws-client-pool#readme",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
