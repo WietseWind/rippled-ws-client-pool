@@ -410,7 +410,7 @@ class RippledWsClientPool extends EventEmitter {
             let fetchMoreTransactions = null
             if (typeof r.response.marker !== 'undefined' && r.response.marker !== null) {
               fetchMoreTransactions = () => {
-                return this.getTransactions('', Object.assign(requestObject, {
+                return this.getTransactions(Options.account, Object.assign(requestObject, {
                   marker: r.response.marker
                 }))
               }
