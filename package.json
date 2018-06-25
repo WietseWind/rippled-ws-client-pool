@@ -9,7 +9,7 @@
   ],
   "devDependencies": {
     "rippled-ws-client": "0.0.1",
-    "websocket": "^1.0.25"
+    "websocket": "^1.0.26"
   },
   "repository": {
     "type": "git",
