@@ -11,6 +11,13 @@ Client side auto failover, health monitoring rippled (XRPL) client using websock
 
  - [rippled-ws-client-sign](https://github.com/WietseWind/rippled-ws-client-sign) ([npm](https://www.npmjs.com/package/rippled-ws-client-sign))
 
+##### To compile for the browser:
+
+```
+./node_modules/.bin/browserify -t  [ babelify --presets [ es2015 ] ] -r .:rippled-ws-client-pool -o dist/rippled-ws-client-pool.js
+```
+
+The output will be in the `dist` folder. You can use it in your project [like this](https://gist.github.com/WietseWind/b8879a123b432485f68a3e4a1139af23).
 
 # API
 
