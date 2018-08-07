@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "description": "Connection pool for multiple rippled-ws-client connections: client side failover and health checking",
   "dependencies": {
-    "rippled-ws-client": "0.0.1",
+    "rippled-ws-client": "0.0.6",
     "websocket": "^1.0.26"
   },
   "main": "src/index.js",
