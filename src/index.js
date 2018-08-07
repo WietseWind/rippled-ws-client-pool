@@ -99,7 +99,7 @@ class RippledWsClientPool extends EventEmitter {
             })
             Connection.on('transaction', (c) => {
               // Do nothing
-              if ((typeof c.transaction.Account !== 'undefined' && typeof WatchAccounts[c.transaction.Account] !== 'undefined') || (typeof c.transaction.Destination !== 'undefined' && typeof WatchAccounts[c.transaction.Destination] !== 'undefined')) {
+              if ((typeof c.transaction.Account !== 'undefined' && (typeof WatchAccounts[c.transaction.Account] !== 'undefined' || Object.keys(WatchAccounts).length < 1)) || (typeof c.transaction.Destination !== 'undefined' && (typeof WatchAccounts[c.transaction.Destination] !== 'undefined' || Object.keys(WatchAccounts).length < 1))) {
                 RecentTransactions.splice(TX_HISTORY_LENGTH)
                 let CurrentTxIndex = RecentTransactions.map((r) => { return r.Hash }).indexOf(c.transaction.hash)
                 if (CurrentTxIndex < 0) {
