@@ -2,6 +2,8 @@
 
 Client side auto failover, health monitoring rippled (XRPL) client using websockets. A development GUI/debugging dashboard/implementation can be found [here](https://github.com/WietseWind/rippled-ws-client-dashboard) (the pool implementation [here](https://github.com/WietseWind/rippled-ws-client-dashboard/blob/master/src/components/Dashboard.vue#L480) starting at line ~480).
 
+### You can see it in action at https://xrp.fans
+
 ### Dependencies 
 
  - [rippled-ws-client](https://github.com/WietseWind/rippled-ws-client) ([npm](https://www.npmjs.com/package/rippled-ws-client))
