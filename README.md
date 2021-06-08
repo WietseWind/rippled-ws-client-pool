@@ -1,3 +1,9 @@
+# Warning
+# This package is deprecated. Please use the xrpl-client package: https://www.npmjs.com/package/xrpl-client
+## See: https://github.com/WietseWind/XRPL-JS-TS-demo
+
+---
+
 # rippled-ws-client-pool
 
 Client side auto failover, health monitoring rippled (XRPL) client using websockets. A development GUI/debugging dashboard/implementation can be found [here](https://github.com/WietseWind/rippled-ws-client-dashboard) (the pool implementation [here](https://github.com/WietseWind/rippled-ws-client-dashboard/blob/master/src/components/Dashboard.vue#L480) starting at line ~480).
